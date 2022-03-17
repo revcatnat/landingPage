@@ -40,7 +40,8 @@ body {
 		background-image: url(../img/bg.png);
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 60vmax;
+		// background-size: 60vmax;
+		background-size: auto 100%;
 		opacity: 0.8;
 
 		position: absolute;
@@ -57,6 +58,8 @@ body {
 			left: 0;
 			bottom: 0;
 			right: 0;
+			font-size: 0.8rem;
+			background-position: top right;
 		}
 	}
 }
@@ -106,7 +109,9 @@ body {
 
 // custom section
 .custom-section {
-	margin-top: 10em;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
 	h2 {
 		font-weight: 700;
 		font-size: 4rem;
